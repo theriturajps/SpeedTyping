@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <title>Typing Speed Test</title>
 </head>
-
-<body>
+<body oncontextmenu='return false' ondragstart='return false' onkeydown='if ((arguments[0] || window.event).ctrlKey) return false' onselectstart='return false'>
     <section class="mt-4 p-4">
         <div class="row">
             <div class="col-sm-6 col-md-2 order-md-0">
@@ -30,6 +28,7 @@
             </div>
             <div class="col-sm-6 col-md-2 order-md-2">
                 <div class="results">
+                    
                     <ul class="list-unstyled left-stats text-center small">
                         <li class="list-item">Timer <span id="timer" class="d-block stats">0</span></li>
                         <hr class="hr-x">
