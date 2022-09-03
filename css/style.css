@@ -10,7 +10,11 @@
   min-width: 300px;
   min-height: 80px;
 }
-
+.note {
+  background-color: #ccbbbb;
+  padding: 7px;
+  border-radius: 12px;
+}
 #textInput.active {
   box-shadow: 0 0 0 0.15rem rgba(255, 0, 0, 0.3);
 }
